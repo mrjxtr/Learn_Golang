@@ -1,7 +1,11 @@
 // learn golang basics
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/mrjxtr/Learn_Golang/internal/hello"
+)
 
 func basics() {
 	// Basic data types
@@ -80,7 +84,7 @@ func add(x int, y int) int {
 // Go's main function is the entry point of any Go program.
 func main() {
 	basics()
-	println(add(5, 12))
+	fmt.Println(add(5, 12))
 	// called this function from hello_world.go file
-	Hello()
+	hello.Hello()
 }

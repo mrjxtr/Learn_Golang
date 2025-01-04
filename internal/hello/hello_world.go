@@ -1,5 +1,5 @@
 // testing out golang code
-package main
+package hello
 
 import "fmt"
 
